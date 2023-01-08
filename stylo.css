@@ -1,0 +1,135 @@
+html{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+header{
+   background-color: #f6f8ff;
+   }
+form{
+    background-color: #f6f8ff;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f6f8ff;
+}
+#logo{
+    position: absolute;
+    left: 50px;
+    right: 37px;
+    top: 30px;
+    bottom: 0%;
+}
+#mensaje{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+#resultado{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF  
+    
+    font: - family: "inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%
+    text-align: center;
+        
+}
+
+
+
+#encriptador{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    top: 850px;
+    left: 200px;
+
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#desencriptador{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    top: 850px;
+    left: 600px;
+
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871
+
+}
+
+#copiar{
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 1045px;
+    top: 850px;
+    background: #FFFFFF
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+}
+
+
+
+
+
